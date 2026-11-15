@@ -1,0 +1,21 @@
+# IMDb source datasets (large files)
+imdb-data/*
+!imdb-data/.gitkeep
+
+# Spark output and temporary files
+imdb-results/
+spark-warehouse/
+metastore_db/
+derby.log/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
